@@ -7,6 +7,7 @@ print("Olá mundo")
 
 #Operações:
 print(2 / 2)
+print(4 // 3)
     #Exponenciação:
 print(2 ** 3)
     #resto:
@@ -61,6 +62,11 @@ y = "Yury"
 concatenacao = r + " " + y
 print(r + y)
 
+    #Multiplicando strings:
+primeira = 'Ruann\n'
+segunda = 3
+print(primeira*segunda)
+
     #Tamanho de uma string:
 tamanho = len(concatenacao)
 print(tamanho)
@@ -71,6 +77,12 @@ print(r[2])
     #Imprime um pedaço da string:
 print(r[0:2])
 print(r[1:])
+
+    #Pedir para o usuário escreva algo:
+nome = input('Qual o seu nome, mestre?\n')
+print("Seja bem vindo, ", nome)
+idade = input('Qual a sua idade?\n')
+print(int(idade))
 
 ############# Método!!!!!!:
 print(concatenacao.lower()) #Função LOWER deixa tudo minúsculo
