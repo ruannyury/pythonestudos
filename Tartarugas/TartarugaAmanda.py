@@ -8,3 +8,5 @@ amanda.left(90)            # roda de 90 graus para a esquerda
 amanda.forward(150)        # manda a Amanda se mover 150 unidades para frente
 amanda.left(90)            # roda de 90 graus para a esquerda
 amanda.forward(75)         # desenha o outro lado do retângulo
+
+wn.exitonclick()
