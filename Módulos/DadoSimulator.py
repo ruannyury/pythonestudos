@@ -6,8 +6,8 @@ def main():
     try: #Captura uma exceção caso o usuário digite algo diferente de um número
         control = int(input("Digite qualquer número para começar: "))
     
-        while control != 0: #Enquanto o número digitado não for zero ele gera valores aleatórios entre 1 e 9
-            dado = random.randint(1, 9) #Chamada 
+        while control != 0: #Enquanto o número digitado não for zero ele gera valores aleatórios entre 1 e 6
+            dado = random.randint(1, 6) #Chamada 
             print("Valor aleatório: ",dado)      
             control = int(input("Se quiser parar digite zero, senão, digite qualquer outro número: "))
         print('''
