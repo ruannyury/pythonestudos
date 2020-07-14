@@ -63,6 +63,9 @@ r = "Ruann"
 y = "Yury"
 concatenacao = r + " " + y
 print(r + y)
+    #Concatenação automática:
+frase = ('Primeira parte da frase' 
+         'Segunda parte da frase')
 
     #Multiplicando strings:
 primeira = 'Ruann\n'
