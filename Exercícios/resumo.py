@@ -85,9 +85,10 @@ print(r[1:])
 
     #Pedir para o usuário escreva algo:
 nome = input('Qual o seu nome, mestre?\n')
-print("Seja bem vindo, ", nome)
-idade = input('Qual a sua idade?\n')
-print(int(idade))
+print(f"Seja bem vindo, {nome} ")
+
+idade = int(input('Qual a sua idade?\n'))
+print(f"{nome} tem {idade} anos.")
 
 ############# Método!!!!!!:
 print(concatenacao.lower()) #Função LOWER deixa tudo minúsculo
