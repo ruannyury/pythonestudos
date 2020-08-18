@@ -4,7 +4,8 @@ Maior fator primo de 600851475143
 
 
 def main():
-    pass
+    maiorfator, num, fator = 0, 600851475143, 0
+    
 
 
 main()
